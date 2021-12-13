@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+*{
+    padding: 0;
+    margin:0;
+}
+/***********
+    FONDOS
+************/
+.fondo, .fondoContacto{
+    background-color: black;
+}
+.fondoContacto{
+    color: white;
+}
+
+/**********************
+    TITULOS DE LIBROS
+***********************/
+.letrasCategorias{
+    color: white;
+}
+h5, .letrasCategorias, .secciones{
+    font-family: 'Cinzel', serif;
+}
+.secciones{
+    color: burlywood;
+}
+/************
+    HOVER
+*************/
+.opacidad{
+    opacity: 0.25;
+}
+img:hover{
+    opacity: 1.0;
+}
+
+/************
+    IMAGENES
+*************/
+.fotoCircular{
+    width: 100%;
+    height: 300px;
+    border-radius: 60%;
+}
+/************
+    PARRAFOS
+*************/
+.parrafos{
+    font-family: 'Cairo', sans-serif;
+        color: black;
+}
+.parrafos1{
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    font-size: 2em;
+}
+.resumen{
+    color: burlywood;
+    font-size: 1.5em;
+    text-align: justify;
+    border: burlywood 3px solid;
+    font-family: 'Cairo', sans-serif;
+    padding: 50px;
+    margin: 30px;
+
+}
+/********
+    PIE
+*********/
+footer{
+    background-color: black;
+    color: white;
+}
